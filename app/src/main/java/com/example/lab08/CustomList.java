@@ -22,6 +22,10 @@ public class CustomList {
         cities.remove(city);
     }
 
+    public int countCity() {
+        return cities.toArray().length;
+    }
+
     // Will be implemented later using TDD (leave blank for now)
     // public boolean hasCity(City city) { ... }
 }
